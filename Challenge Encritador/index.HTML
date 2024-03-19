@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style-encriptador.css">
+        <script src="Logica.js"></script>
+    </head>
+    <body> 
+        <input type="text" id="textoUsuario" required placeholder="Pon el texto aqui">
+        <br>
+       <img src="francia.jpg" class="francia">
+        <p class="textoEncriptado"></p>
+        <br>
+        <h1 class="textoDesencriptado" style="color: white;"></h1>
+    </body>
+    <footer>
+        <p class="informacion" style="color: #90949e;">Solo letras minusculas y sin acentos</p>
+        <br>
+        <input onclick="encriptar()"; type="submit" value="Encriptar!" id="encriptar">
+        <input onclick="desencriptar()" type="submit" value="Desencriptar!" class="desencriptar" >
+        <input onclick="copiar()" type="submit" value="copiar" class="copiar" data-clipboardo-target="#textoUsuario">
+    </footer>
+   
+    <script src="Logica.js"></script>
+    
+</html>
